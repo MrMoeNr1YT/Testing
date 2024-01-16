@@ -36,7 +36,6 @@ public class Rectangle extends Form {
 	public double calculateArea() {
 		return this.width*length;
 	}
-//TODO: ausgebessert fehler mit CalculateArea, sowie fehler mit calculateCirmference
 	
 	
 	public double calculateCircumference() {

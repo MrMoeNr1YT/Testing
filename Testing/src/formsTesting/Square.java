@@ -6,7 +6,12 @@ public class Square extends Form {
 	
 	public Square(double x, double y, double width) {
 		super(x, y);
-		this.width = width;
+		if(width<=0) {
+			System.err.println("Keine Zahlen unter 0 erlaubt! ");
+			return;
+		}else if(width > 0){
+			this.width = width;
+		}
 	}
 
 
@@ -21,8 +26,7 @@ public class Square extends Form {
 		this.width = width;
 	}
 
-//TODO änderung: alles mit rectangle entfernt und width hinzugefügt
-	//TODO neue getter setter und calcarea und calc circum geändert
+
 
 	public double calculateArea() {
 		return Math.pow(width, 2);
