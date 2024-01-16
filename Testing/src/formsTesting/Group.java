@@ -70,9 +70,14 @@ public class Group {
 	 * @return form with biggest area
 	 */
 	public Form findBiggestForm() {
-		Form form = this.forms.get(0);
+		Form form1=forms.get(1);
+		for(int i=1; i<this.forms.size();i++) {
+			if(form1.calculateArea()<forms.get(i).calculateArea()) {
+				form1 =forms.get(i);
+			}
+		}
 		
-		return form;
+		return form1;
 	}
 
 }
