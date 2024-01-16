@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.MyMathTest">
+      <class name="formsTesting.CircleTest">
         <methods>
-          <include name="testComparisson"/>
+          <include name="test3CalculateCircumference"/>
+          <include name="test2CalculateCircumference"/>
         </methods>
-      </class> <!-- Test.MyMathTest -->
+      </class> <!-- formsTesting.CircleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

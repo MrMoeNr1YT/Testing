@@ -6,7 +6,12 @@ public class Circle extends Form {
 
 	public Circle(double x, double y, double radius) {
 		super(x, y);
-		this.radius = radius;
+		if(radius<=0) {
+			System.err.println("Keine Zahlen unter 0 erlaubt! ");
+			return;
+		}else if(radius > 0){
+			this.radius = radius;
+		}
 	}
 
 	public double getRadius() {
@@ -20,6 +25,7 @@ public class Circle extends Form {
 	public double calculateArea() {
 		return Math.pow(this.radius, 2)*Math.PI;
 	}
+	
 	
 	public double calculateCircumference() {
 		return 2*this.radius*Math.PI;

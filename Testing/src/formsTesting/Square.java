@@ -2,32 +2,39 @@ package formsTesting;
 
 public class Square extends Form {
 	
-	private Rectangle rectangle;
+	double width = 0;
 	
 	public Square(double x, double y, double width) {
 		super(x, y);
-		rectangle = new Rectangle(x,y,width,3*width);
+		this.width = width;
 	}
 
-	public Rectangle getRectangle() {
-		return rectangle;
+
+
+	public double getWidth() {
+		return width;
 	}
 
-	public void setRectangle(Rectangle rectangle) {
-		this.rectangle = rectangle;
+
+
+	public void setWidth(double width) {
+		this.width = width;
 	}
+
+//TODO änderung: alles mit rectangle entfernt und width hinzugefügt
+	//TODO neue getter setter und calcarea und calc circum geändert
 
 	public double calculateArea() {
-		return this.rectangle.calculateArea();
+		return Math.pow(width, 2);
 	}
 
 	public double calculateCircumference() {
-		return this.rectangle.calculateCircumference();
+		return 4*width;
 	}
 	
 	public String toString() {
 		return "Square (" + this.getX() + "|" + this.getY() + ") with width = " 
-					+ this.rectangle.getWidth();
+					+ this.getWidth();
 	}
 	
 

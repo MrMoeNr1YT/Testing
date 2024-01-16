@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-11T13:30:53 MEZ" name="Default suite" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="46">
+  <suite started-at="2024-01-16T10:03:46 MEZ" name="Default suite" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="82">
     <groups>
     </groups>
-    <test started-at="2023-12-11T13:30:53 MEZ" name="Default test" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="46">
-      <class name="Test.MyMathTest">
-        <test-method signature="testAddition()[pri:0, instance:Test.MyMathTest@ef9296d]" started-at="2023-12-11T13:30:53 MEZ" name="testAddition" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="13" status="PASS">
+    <test started-at="2024-01-16T10:03:46 MEZ" name="Default test" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="82">
+      <class name="formsTesting.CircleTest">
+        <test-method signature="test1CalculateArea()[pri:0, instance:formsTesting.CircleTest@ef9296d]" started-at="2024-01-16T10:03:46 MEZ" name="test1CalculateArea" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddition -->
-        <test-method signature="testComparisson()[pri:0, instance:Test.MyMathTest@ef9296d]" started-at="2023-12-11T13:30:53 MEZ" name="testComparisson" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="1" status="PASS">
+        </test-method> <!-- test1CalculateArea -->
+        <test-method signature="test1CalculateCircumference()[pri:0, instance:formsTesting.CircleTest@ef9296d]" started-at="2024-01-16T10:03:46 MEZ" name="test1CalculateCircumference" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testComparisson -->
-        <test-method signature="testDivision()[pri:0, instance:Test.MyMathTest@ef9296d]" started-at="2023-12-11T13:30:53 MEZ" name="testDivision" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="0" status="PASS">
+        </test-method> <!-- test1CalculateCircumference -->
+        <test-method signature="test2CalculateArea()[pri:0, instance:formsTesting.CircleTest@ef9296d]" started-at="2024-01-16T10:03:46 MEZ" name="test2CalculateArea" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDivision -->
-        <test-method signature="testDoubleDivision()[pri:0, instance:Test.MyMathTest@ef9296d]" started-at="2023-12-11T13:30:53 MEZ" name="testDoubleDivision" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="1" status="PASS">
+        </test-method> <!-- test2CalculateArea -->
+        <test-method signature="test2CalculateCircumference()[pri:0, instance:formsTesting.CircleTest@ef9296d]" started-at="2024-01-16T10:03:46 MEZ" name="test2CalculateCircumference" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDoubleDivision -->
-        <test-method signature="testMultiplication()[pri:0, instance:Test.MyMathTest@ef9296d]" started-at="2023-12-11T13:30:53 MEZ" name="testMultiplication" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="2" status="PASS">
+        </test-method> <!-- test2CalculateCircumference -->
+        <test-method signature="test3CalculateArea()[pri:0, instance:formsTesting.CircleTest@ef9296d]" started-at="2024-01-16T10:03:46 MEZ" name="test3CalculateArea" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMultiplication -->
-        <test-method signature="testSubtraction()[pri:0, instance:Test.MyMathTest@ef9296d]" started-at="2023-12-11T13:30:53 MEZ" name="testSubtraction" finished-at="2023-12-11T13:30:53 MEZ" duration-ms="1" status="PASS">
+        </test-method> <!-- test3CalculateArea -->
+        <test-method signature="test3CalculateCircumference()[pri:0, instance:formsTesting.CircleTest@ef9296d]" started-at="2024-01-16T10:03:46 MEZ" name="test3CalculateCircumference" finished-at="2024-01-16T10:03:46 MEZ" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSubtraction -->
-      </class> <!-- Test.MyMathTest -->
+        </test-method> <!-- test3CalculateCircumference -->
+      </class> <!-- formsTesting.CircleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
