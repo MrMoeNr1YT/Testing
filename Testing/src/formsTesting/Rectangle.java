@@ -7,8 +7,14 @@ public class Rectangle extends Form {
 	
 	public Rectangle(double x, double y, double width, double length) {
 		super(x, y);
-		this.width = width;
-		this.length = length;
+		if(length<=0||width<=0) {
+			System.err.println("Keine Zahlen unter 0 erlaubt! ");
+			return;
+		}else if(length > 0&&width > 0){
+			this.length = length;
+			this.width = width;
+		}
+		
 	}
 
 	public double getWidth() {
