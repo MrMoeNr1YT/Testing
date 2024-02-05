@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="formsTesting.GroupTest">
+      <class name="formsTesting.TriangleTest">
         <methods>
-          <include name="testFindBiggestForm"/>
+          <include name="test1CalculateArea"/>
+          <include name="test1CalculateCircumference"/>
         </methods>
-      </class> <!-- formsTesting.GroupTest -->
+      </class> <!-- formsTesting.TriangleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
